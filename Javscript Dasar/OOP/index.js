@@ -1,28 +1,35 @@
-// class Person {
-//   #name;
-//   #age;
-//   constructor(name, age) {
-//     this.#name = name;
-//     this.#age = age;
-//   }
-//   set personName(name) {
-//     this.#name = name;
-//   }
-//   set personAge(age) {
-//     this.#age = age;
-//   }
-//   get personName() {
-//     return this.#name;
-//   }
-//   get personAge() {
-//     return this.#age;
-//   }
-//   sayHello() {
-//     console.log(
-//       `Hello, my name is ${this.#name}, and i'm ${this.#age} years old`
-//     );
-//   }
-// }
+class Person {
+  #name;
+  #age;
+  constructor(name, age) {
+    this.#name = name;
+    this.#age = age;
+  }
+  set personName(name) {
+    this.#name = name;
+  }
+  set personAge(age) {
+    this.#age = age;
+  }
+  get personName() {
+    return this.#name;
+  }
+  get personAge() {
+    return this.#age;
+  }
+  sayHello() {
+    console.log(
+      `Hello, my name is ${this.#name}, and i'm ${this.#age} years old`
+    );
+  }
+}
+// const person = new Person("Faizal Husain", 20);
+// console.log(person.personName);
+
+// person.personName = "Givandra";
+// console.log(person.personName);
+// const person1 = new Person("Givandra", 20);
+// console.log(person1.name);
 // const person = new Person("Faizal Husain", 20);
 // person.sayHello();
 
@@ -39,6 +46,7 @@
 //     return this.#studentId;
 //   }
 //   sayHello() {
+//     super.sayHello();
 //     console.log(
 //       `Hello, my name is ${this.personName}, and i'm ${this.personAge} years old, and my student id is ${this.studentId}`
 //     );
@@ -52,7 +60,7 @@
 // try {
 //   let nilai = 4;
 //   if (nilai < 7) {
-//     throw new Error("Nilai tidak boleh kurang dari 5");
+//     throw new Error("Nilai tidak boleh kurang dari 7");
 //   }
 // } catch (error) {
 //   console.log(`${error.message}`);
@@ -69,7 +77,7 @@
 // try {
 //   let nilai = 4;
 //   if (nilai < 7) {
-//     throw new ValidationNilai("tidak boleh kurang dari 5", "nilai");
+//     throw new ValidationNilai("tidak boleh kurang dari 7", "nilai");
 //   }
 // } catch (error) {
 //   console.log(`${error.field} ${error.message}`);

@@ -12,7 +12,7 @@
 // function tambah(bilangan1, bilangan2) {
 //   console.log(bilangan1 + bilangan2);
 // }
-// tambah(a, b);
+// tambah(a);
 
 // example optional parameter
 // function sayHi(firstname, lastname) {
@@ -32,7 +32,7 @@
 // function sum(...numbers) {
 //   let result = 0;
 //   for (const number of numbers) {
-//     result += number;
+//     result = result + number;
 //   }
 //   return result;
 // }
@@ -46,6 +46,7 @@
 // function sayThanks() {
 //   console.log("Thank you for calling me!");
 // }
+// sayHi("Faizal", sayThanks);
 
 // anonymous function
 // const sayHi = function (name) {
@@ -57,6 +58,7 @@
 // const sayHi = (name) => {
 //   console.log(`Hi ${name}`);
 // };
+// sayHi("Faizal");
 
 // arrow function without curly braces
 // const sayHi = (name) => console.log(`Hi ${name}`);

@@ -1,9 +1,11 @@
 // If else
-var a = 5;
-var b = 10;
+// var a = 10;
+// var b = 20;
 
 // if (a > b) {
 //   console.log(true);
+// } else if (a == b) {
+//   console.log("Nilai a sama dengan b");
 // } else {
 //   console.log(false);
 // }
@@ -13,3 +15,9 @@ var b = 10;
 
 // Nullish Coallescing Operator
 // b ?? console.log("Nilai b adalah null");
+// const a = {};
+// if (a?.name.a) {
+//   console.log(a.name);
+// } else {
+//   console.log("Tidak ada nama");
+// }

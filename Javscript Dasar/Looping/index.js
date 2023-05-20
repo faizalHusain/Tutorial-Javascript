@@ -3,7 +3,7 @@
 // }
 
 // while
-// let i = 0;
+// const i = 0;
 // while (i < 10) {
 //   console.log("ini adalah while loop ke", i);
 //   i++;
@@ -50,6 +50,6 @@
 
 // for of
 // arr = [90, 10, 80, 20, 30];
-// for (const value of arr) {
+// for (let value of arr) {
 //   console.log(`${value}`);
 // }
